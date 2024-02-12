@@ -1,104 +1,112 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 body {
     background: #777779;
-
 }
-
 
 .signin-methods {
     background: rgb(255, 255, 255);
-    padding: 10px 50px;
+    padding: 40px 50px 50px;
     width: 400px;
     position: absolute;
-    top: 100% 
-    left:100%;
-    border-radius: 1px;
-    margin: 20px 100px 20px 450px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
 }
 
 .logo {
     width: 100px;
     margin-bottom: 20px;
-
 }
 
 .signin-methods h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
-.signin-methods button img {
-    width: 25px;
-    margin-right: 5px;  
-}
-
-.signin-methods button {
-    width: 100%;
-    padding: 10px 0;
+.google-btn,
+.apple-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding: 12px 0;
     margin: 20px 0;
     border-radius: 30px;
-    border: 1px solid #ffffff;
+    border: 1px solid #ddd;
     font-weight: 500;
     cursor: pointer;
-
-}
-
-.signin-methods hr {
-    border: 0;
-    height: 1px;
-    background: #c2c2c2;
-    margin: 4px;
-
-}
-
-.signin-methods span {
-    display: block;
-    width: 35px;
-    margin: auto;
     background: #fff;
-    font-size: 18px;
-    margin-top: -18px;
+}
+
+.google-btn img,
+.apple-btn img {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.google-btn span,
+.apple-btn span {
+    font-weight: 500;
+}
+
+.apple-btn {
+    margin-top: 10px;
+}
+
+h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px outset #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h6 span {
+    background: #fff;
+    padding: 0 8px;
 }
 
 .signin-methods input {
     width: 100%;
     background: transparent;
-    border: 1p solid #999;
+    border: 1px solid #ddd;
     outline: 0;
     padding: 12px 10px;
     border-radius: 4px;
     margin: 10px 0;
 }
 
-::placeholder {
-    font weight: 500;
-    color: #333;
-}
-
-.signin-methods form button {
-    background: #000;
+.next-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: #000;
     color: #fff;
-    border: 0;
-    margin-bottom: 15px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
-.signin-methods p {
-    text-align: left;
-    font-size: 14px;
-    color: #555;
-    margin: 40px 0 50px;
-}
-
-.signin-methods p a {
-    text-decoration: none;
-    color: #359cf0;
+.forgot-pass-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
 }
