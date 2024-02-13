@@ -15,7 +15,7 @@ body {
 
 }
 header p{
-    margin-top:10px;
+    margin-top:5px;
     border-bottom:1px solid grey;
 }
    
@@ -38,21 +38,19 @@ header p{
    }
    
    header a {
-    color: #5b43e0;
-    text-decoration: none;
+    color: #2c12be
    }
    
    .main-section {
-    background-image: url("city-background.jpg");
     background-size: cover;
     color: #111111;
    }
    
    .left-main h2{
-    margin-top:20px;
+    margin:30px 0px;
    }
    .left-main a{
-    margin-bottom:20px;
+    margin-top:10px;
     gap:10px;
    }
 
@@ -64,44 +62,36 @@ header p{
     margin-bottom: 1rem;
     display:block;
    }
-   
-   .featured {
-    padding: 2rem;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-   }
-   
-   .featured h3 {
-    margin-top: 0;
-   }
-   
-   .featured img {
-    width: 100px;
-    margin-right: 1rem;
+   .featured{
+    margin-top:50px;
+    margin-bottom: 20px;
    }
    
    .listings {
-    padding: 2rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px;
+    margin-bottom:0%;
    }
    
    .listings h4 {
     margin-top: 0;
    }
    
-   .listings ul {
-    padding: 0;
-    display: block;
+   .listings ul li {
+    margin:0px;
+    padding:0px;
+    margin-left: 20px;
+    list-style-type: disc;
+    color:#111111 ;
+
    }
-   
-   .listings li {
-    margin-right: 0%;
+
+
    }
    
    .listings a {
     display: block;
     padding: 0.5rem;
-    color:blue;
+    color:rgb(15, 15, 139);
    }
    
    .testimonial {
@@ -110,7 +100,6 @@ header p{
    }
    
    .testimonial blockquote {
-    border-left: 2px solid #ddd;
     padding-left: 1rem;
     margin: 0;
    }
