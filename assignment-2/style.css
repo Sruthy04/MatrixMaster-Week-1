@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family:'Times New Roman', Times, serif;
+    line-height:1;
+    color: #111010;
+   }
+   
+   header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+
+   }
+
+   header div, header nav {
+    margin-bottom: 0;
+}
+   
+   header h1 {
+    margin: 10px;
+    color: #161616;
+    display:flex;
+    align-items:center;
+   }
+   
+   header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top:0;
+    padding:40px;
+   }
+   
+   header nav ul li {
+    margin-right: 1rem;
+   }
+   
+   header nav a {
+    color: #5b43e0;
+    text-decoration: none;
+   }
+   
+   .hero {
+    background-image: url("city-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+   }
+   
+   .hero h2 {
+    margin-top: 0;
+   }
+   
+   .hero form input {
+    width: 300px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+   }
+   
+   .hero .prices {
+    margin-top: 2rem;
+    text-align: left;
+   }
+   
+   .featured {
+    padding: 2rem;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+   }
+   
+   .featured h3 {
+    margin-top: 0;
+   }
+   
+   .featured img {
+    width: 100px;
+    margin-right: 1rem;
+   }
+   
+   .listings {
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+   }
+   
+   .listings h4 {
+    margin-top: 0;
+   }
+   
+   .listings ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+   }
+   
+   .listings li {
+    margin-right: 1rem;
+   }
+   
+   .listings a {
+    display: block;
+    padding: 0.5rem;
+    background-color: #ddd;
+    text-decoration: none;
+    color: #333;
+   }
+   
+   .testimonial {
+    padding: 2rem;
+    text-align: center;
+   }
+   
+   .testimonial blockquote {
+    border-left: 2px solid #ddd;
+    padding-left: 1rem;
+    margin: 0;
+   }
+   
+   .testimonial cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+   }
+   
+   footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+   }
+   
+   footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+   }
+   
+   footer nav img {
+    width: 32px;
+    height: 32px;
+   }
