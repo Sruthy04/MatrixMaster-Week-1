@@ -1,121 +1,136 @@
-*{
-    margin:0;
-    padding:1px;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.card-details {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-details h3 {
+    font-size: 18px;
+    padding: auto;
+}
+
+.card-details p {
+    font-size: 14px;
+    color: #777;
+}
+
 body {
-    font-family:'Times New Roman', Times; 
+    font-family: 'Times New Roman', Times, serif;
     color: #111010;
     line-height: 1rem;
-   }
-   
-   header {
+}
+
+header {
     display: flex;
     justify-content: space-between;
-    flex-direction: column; 
+    flex-direction: column;
+}
 
+header p {
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
 }
-header p{
-    margin-top:5px;
-    border-bottom:1px solid grey;
-}
-   
-   header h1{
+
+header h1 {
     color: #161616;
-    display:flex;
-    align-items:center;
-    margin-top:10px;
-   }
-   
-   header  ul {
+    margin-top: 10px;
+}
+
+header ul {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    padding:20px;
-   }
-   
-   header  ul li {
-    margin-right: 1rem;
-   }
-   
-   header a {
-    color: #2c12be
-   }
-   
-   .main-section {
-    background-size: cover;
-    color: #111111;
-   }
-   
-   .left-main h2{
-    margin:30px 0px;
-   }
-   .left-main a{
-    margin-top:10px;
-    gap:10px;
-   }
+    padding: 20px;
+}
 
-   
-   .main-section  form input {
+header ul li {
+    margin-right: 1rem;
+}
+
+header a {
+    color: blue;
+}
+
+.left-main h2 {
+    margin: 30px 0;
+}
+
+.left-main a {
+    margin-top: 10px;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.images-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-section form input {
     width: 200px;
     padding: 0.2rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    display:block;
-   }
-   .featured{
-    margin-top:50px;
+    display: block;
+}
+
+.featured {
+    margin-top: 50px;
     margin-bottom: 20px;
-   }
-   
-   .listings {
+}
+
+.listings {
     border-bottom: 1px;
-    margin-bottom:0%;
-   }
-   
-   .listings h4 {
-    margin-top: 0;
-   }
-   
-   .listings ul li {
-    margin:0px;
-    padding:0px;
+    margin-bottom: 0;
+}
+
+.listings ul li {
+    margin: 0;
+    padding: 0;
     margin-left: 20px;
     list-style-type: disc;
-    color:#111111 ;
+    color: #111111;
+}
 
-   }
-
-
-   }
-   
-   .listings a {
+.listings a {
     display: block;
     padding: 0.5rem;
-    color:rgb(15, 15, 139);
-   }
-   
-   .testimonial {
-    padding: 2rem;
-    text-align: center;
-   }
-   
-   .testimonial blockquote {
-    padding-left: 1rem;
-    margin: 0;
-   }
-   
-   .testimonial cite {
-    display: block;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-   }
-   
-   footer {
+    color: blue;
+}
+
+footer {
     display: flex;
     justify-content: space-between;
-    padding: 0%;
+    padding: 0;
     color: #141414;
-    margin-top:20px;
-   }
-   
+    margin-top: 20px;
+}
